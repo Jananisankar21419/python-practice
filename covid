@@ -1,0 +1,6 @@
+from COVID19Py import COVID19Py
+cor = cov()
+cont = input("enter your country:")
+case = cor.get_status_by_country_name(cont)
+for cont in case:
+    print(cont, "i" , case[cont])
