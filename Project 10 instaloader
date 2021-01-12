@@ -1,0 +1,4 @@
+import instaloader
+ig = instaloader.instaloader()
+username = input("enter the usernamr:")
+print(ig.download_profile(usernamr,profile_pic_only=True))
