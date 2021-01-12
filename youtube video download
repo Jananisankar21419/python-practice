@@ -1,0 +1,9 @@
+from pytube import Youtube
+url = input("enter the url:")
+try:
+    yt_obj = Youtube(url)
+    filters = yt_obj.streams.filter(progressive=True,file_extension-'mp4')
+    filters.get_highest_resolution().download()
+    print("video download successfully")
+except Exception as e:
+    print(e)    
