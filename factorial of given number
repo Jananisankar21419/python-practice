@@ -1,0 +1,12 @@
+#program starts here...
+print("\n -------------FACTORIAL OF GIVEN NUMBER------------")
+facto = 1
+#getting input from user..
+fac = int(input("enter the number:"))
+
+#condition...
+for i in range( 1, fac + 1):
+    facto = facto * i
+print("factorial of ", fac ," =",facto)
+ #program ends here...   
+print("\n -------------END OF THE PROGRAM ------------------")
