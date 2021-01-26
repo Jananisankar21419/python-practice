@@ -1,0 +1,8 @@
+#program starts here.
+firstnum = 0
+secondnum = 1
+for i in range(1,11):
+    num = firstnum + secondnum
+    print(num)
+    firstnum = secondnum
+    secondnum = num 
